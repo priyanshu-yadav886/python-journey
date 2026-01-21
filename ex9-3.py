@@ -6,6 +6,7 @@ class User:
         self.last_name = last_name
         self.users_age = users_age
         self.users_location = users_location
+        self.login_attempts = 0
 
     def describe_user(self):
         """A method to describe user's info."""
@@ -17,6 +18,15 @@ class User:
     def greet_user(self):
         """A method to greet user."""
         print(f"\nHello {self.first_name.title()} {self.last_name.title()}.")
+
+    def increment_login_attempts(self):
+        """Increasing the login attement by 1."""
+        self.login_attempts += 1
+
+
+    def reset_login_attempts(self):
+        """Resetting attempts at 0 again."""
+        self.login_attempts = 0
 
 
 user_profile = User('priyanshu', 'yadav', 20, 'behror')
@@ -37,3 +47,13 @@ print(f"\tLocation: {user2_profile.users_location.title()}")
 
 user2_profile.describe_user()
 user2_profile.greet_user()
+
+user_profile.increment_login_attempts()
+user_profile.increment_login_attempts()
+user_profile.increment_login_attempts()
+
+print("\nLogin attempts:" , user_profile.login_attempts)
+
+user_profile.reset_login_attempts()
+
+print("Login attemptes after reset:", user_profile.login_attempts)
