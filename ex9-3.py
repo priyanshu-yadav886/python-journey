@@ -30,7 +30,7 @@ class User:
 
 
 user_profile = User('priyanshu', 'yadav', 20, 'behror')
-user2_profile = User('dedha', 'yadav', 20, 'jaipur')
+user2_profile = User('prince', 'yadav', 20, 'jaipur')
 
 print("\nHere are the details of first user:")
 print(f"\tName: {user_profile.first_name.title()} {user_profile.last_name.title()}")
