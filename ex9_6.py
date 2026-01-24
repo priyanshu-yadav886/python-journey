@@ -27,11 +27,3 @@ class IceCreamStand(Restaurant):
         print("\n Available ice cream name")
         for flavor in self.flavors:
             print(f"- {flavor}")
-
-
-ice_cream = IceCreamStand("Cool Scoops", "Ice Cream")
-
-ice_cream.flavors = ["Vanilla", "Chocolate", "Strawberry", "Mango"]
-
-ice_cream.describe_restaurant()
-ice_cream.show_flavors()
