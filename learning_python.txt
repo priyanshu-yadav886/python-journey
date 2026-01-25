@@ -1,0 +1,10 @@
+In python you can print anything with the 'print( )' method.
+In python you can print anything if it is in strings(" ").
+In python you can make your code easy to read by assigning your words a variable.
+In python you can modify, add and remove any element from lists and dictionaries easily.
+In python you can loop through a list and dictionary very easily.
+In python you can make your code easy by using if statement.
+In python you can use if statement on lists and dictionaries easily.
+In python you can use while loop to make a infinite loop.
+In python you can use input( ) statement to get an input from the user.
+In python you can store anything related to a thing or person as an attribute in classes.
