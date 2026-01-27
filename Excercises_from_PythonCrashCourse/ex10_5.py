@@ -1,6 +1,6 @@
 from pathlib import Path
 
-path = Path('guest_book.txt')
+path = Path('Excercises_from_PythonCrashCourse/guest_book.txt')
 
 prompt = "Write your name."
 prompt += "Write 'quit' if you are the last guest."

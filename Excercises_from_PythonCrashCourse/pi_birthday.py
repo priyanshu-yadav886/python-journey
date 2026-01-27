@@ -1,6 +1,6 @@
 from pathlib import Path
 
-path = Path('pi_million_digits.txt')
+path = Path('Excercises_from_PythonCrashCourse/pi_million_digits.txt')
 contents = path.read_text()
 
 pi_strings = ' '

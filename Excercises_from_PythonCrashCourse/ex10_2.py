@@ -1,6 +1,6 @@
 from pathlib import Path
 
-path = Path('learning_python.txt')
+path = Path('Excercises_from_PythonCrashCourse/learning_python.txt')
 contents = path.read_text()
 
 for line in contents.splitlines():
